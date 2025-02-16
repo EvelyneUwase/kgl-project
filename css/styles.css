@@ -7,10 +7,17 @@
 
 }
 
+
+
 body{
     margin: 2px;
-    background-color: rgb(199, 248, 211);
+    background-color: rgba(248, 218, 199, 0.221);
 }
+
+.nav-bar{
+    background-color: rgb(5, 40, 40);
+}
+
 
 .heading{
     text-align: center;
@@ -21,11 +28,13 @@ body{
 
 .text-center{
     margin:100px
-    position: relative;
+    position relative;
     padding-left: 20px;  
 }
 
 /* Card idex.html */
+
+
 .card-header{
     background-color: linen;
 }
@@ -44,4 +53,9 @@ body{
     text-align: center;
     color: white;
     background-color: darkblue;
+}
+
+.footer{
+    background-color:  rgb(5, 40, 40);
+    color: white;
 }

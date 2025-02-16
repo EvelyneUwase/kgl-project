@@ -6,11 +6,12 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(181, 32, 32, 0.084);
+    background-color: rgba(248, 218, 199, 0.221);
+}
 }
 
 .container-fluid{
-    background-color: rgba(127, 255, 212, 0.128);
+    background-color: rgba(1, 24, 7, 0.128);
 }
 
 .heading{
@@ -99,7 +100,7 @@ body{
     transition: 1s;
 }
 .btn:hover{
-    background-color: rgb(214, 217, 222);
+    background-color: rgb(72, 105, 164);
 }
 
 #footer{

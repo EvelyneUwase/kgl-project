@@ -40,6 +40,8 @@ body{
     justify-content: center;
 } */
 
-.footer-body{
-    float: right;
+#footer{
+    text-align: center;
+    color: white;
+    background-color: darkblue;
 }

@@ -9,3 +9,12 @@
     margin: 20px;
 }
 
+.footer-body{
+    float: right;
+}
+
+#footer{
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+}

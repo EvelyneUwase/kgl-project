@@ -1,3 +1,45 @@
 #main{
     margin-top: 100px;
+    background-color:rgba(114, 141, 151, 0.372);
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+body{
+    margin: 2px;
+    background-color: rgb(199, 248, 211);
+}
+
+.heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: rgb(1, 16, 1);
+}
+
+.text-center{
+    margin:100px
+    position: relative;
+    padding-left: 20px;  
+}
+
+/* Card idex.html */
+.card-header{
+    background-color: linen;
+}
+
+.card-body{
+    background-color:rgb(171, 241, 202)
+}
+
+/* .star{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+} */
+
+.footer-body{
+    float: right;
 }

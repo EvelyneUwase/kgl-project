@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/cowpeas.jpg);
+    
+}
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+} */
+
+.login-box{
+    position:relative;
+    width: 400px;
+    height: 450px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+   font-size: 2em; 
+   color: white;
+   text-align: center;
+}
+
+.input-box label{
+    position: 1px;
+    top: 50%;
+    left: 5px;
+    font-size: 1em;
+    color: whitesmoke;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:forcus~label,
+.input-box input:valid~label {
+      top: -5px;      
+}
+
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    padding: 0 8px 0 5px;
+    text-decoration: underline;
+    
+} 
+
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    color: white;
+    font-size: 1.2em;
+    line-height: 57px;;
+}
+
+.remember-forgot{
+    font-size: .9em;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin-right: 3px;
+    float: right;
+}
+
+button{
+    background-color: rgb(206, 216, 225);
+    transition: 1s;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size:1em ;
+}1

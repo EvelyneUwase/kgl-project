@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body> 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="dashboard.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="products.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="myaccounts.html">Login</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <hr />
+      <br>
+      <!-- Openning statement -->
+    <div class="heading">
+        <h2>Here You Can Check Out Our New Products <br>With Fair Prices In Both Branches</h2>
+    </div>
+<br>
+
+<!-- products -->
+<section id="stock" class="py-5">
+    <div class="text-center" style="color: hsl(30, 3%, 11%);">
+      <h2>Grain stock</h2>
+    </div>
+    <br>
+    <br>
+    <div class="statistics container-fluid">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a style="text-decoration: none;" href="prodetails.html">
+              <div class="card mb-4">
+                <img src="/images/beans.jpg" style="width:288px;height: 200px; " class="card-img-top"
+                  alt="..." />
+                <div class="card-body">
+                  <h3 class="card-title">BEANS</h3>
+                  <button class="btn btn-primary">View More</button>
+
+                </div>
+              </div>
+            </a>
+          </div>
+          <br>
+          <br>
+          <div class="swiper-slide">
+            <a style="text-decoration: none;" href="/prodetails.html">
+              <div class="card mb-4">
+                <img src="/images/g-nuts.jpg" style="width: 288px; height:200px;" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h3 class="card-title">G-Nuts</h3>
+                  <button class="btn btn-primary">View More</button>
+
+                </div>
+              </div>
+            </a>
+          </div>
+          <br>
+          <br>
+
+          <div class="swiper-slide">
+            <a style="text-decoration: none;" href="prodetails.html">
+              <div class="card mb-4">
+                <img src="/images/maize-grain.jpg" style="width: 288px;height: 200px;" class="card-img-top"
+                  alt="Maize Image" />
+                <div class="card-body">
+                  <h3 class="card-title">MAIZE</h3>
+                  <button class="btn btn-primary">View More</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <br>
+          <br>
+          <div class="swiper-slide">
+            <a style="text-decoration: none;" href="prodetails.html">
+              <div class="card mb-4">
+                <img src="/images/soypeas.jpg" style="width: 288px; height:200px;" class="card-img-top"
+                  alt="..." />
+                <div class="card-body">
+                  <h3 class="card-title">PEAS</h3>
+                  <button class="btn btn-primary">View More</button>
+
+                </div>
+              </div>
+            </a>
+          </div>
+          <br>
+          <br>
+          <div class="swiper-slide">
+            <a style="text-decoration: none;" href="prodetails.html">
+              <div class="card mb-4">
+                <img src="/images/cowpeas.jpg" style="width: 288px; height:200px;" class="card-img-top"
+                  alt="..." />
+                <div class="card-body">
+                  <h3 class="card-title">Cowpeas</h3>
+                  <button class="btn btn-primary">View More</button>
+
+                </div>
+              </div>
+            </a>
+          </div>
+          <br>
+          <br>
+
+        </div>
+      </div>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper('.mySwiper', {
+          slidesPerView: 4,
+          spaceBetween: 10,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          loop: true, // Enable continuous loop mode
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+        });
+      </script>
+    </div>
+</section>
+  
+    <script src="/css/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+</body>
+</html>

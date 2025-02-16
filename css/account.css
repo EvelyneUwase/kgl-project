@@ -1,9 +1,11 @@
 .body{
     margin-top: 50px;
     text-align: center;
-    
+    box-sizing: border-box;
+    background-color: rgb(211, 222, 222);
 }
 
 .nav-bar{
     margin: 20px;
 }
+
